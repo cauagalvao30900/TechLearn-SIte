@@ -283,14 +283,15 @@ section.sobre .flex {
   }
   
   .img-port {
-    width: 700px; /* Largura padrão */
-    height: 700px; /* Altura padrão */
-    background-size: cover; /* Faz com que a imagem cubra completamente o elemento */
+    width: 500px; /* Largura padrão */
+    height: 500px; /* Altura padrão */
+    background-size: contain; /* Mantém a proporção da imagem */
     background-position: center; /* Centraliza a imagem dentro do elemento */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
-    border-radius: 8px; /* Adiciona bordas arredondadas, ajuste conforme necessário */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
     box-shadow: 0 8px 8px rgba(255, 255, 255, 0.1); /* Adiciona uma sombra sutil */
   }
+  
   
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
